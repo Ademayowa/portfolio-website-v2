@@ -1,0 +1,43 @@
+.hero {
+  padding: 3.125rem 1.25rem;
+  color: var(--white-color);
+  position: relative;
+}
+
+.hero h1,
+.hero h2 {
+  font-size: 2.688rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-weight: 200;
+}
+
+.icons {
+  font-size: 1.75rem;
+}
+
+.icons svg {
+  color: var(--pink-color) !important;
+}
+
+.icons svg:hover {
+  color: var(--white-color) !important;
+}
+
+@media (max-width: 767px) {
+  .hero h1,
+  .hero h2 {
+    font-size: 1.25rem !important;
+    margin-top: -0.313rem;
+  }
+
+  .hero h2 {
+    margin-bottom: 1.25rem;
+  }
+
+  .hero p {
+    font-size: 1.125rem;
+  }
+}

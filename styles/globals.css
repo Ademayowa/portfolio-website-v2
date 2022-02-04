@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Nunito+Sans:wght@200;300&display=swap');
+
+:root {
+  --primary-blue: #131d2f;
+  --secondary-blue: #0f1624;
+  --pink-color: #f97b58;
+  --white-color: #fff;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: var(--secondary-blue);
+  color: var(--white-color);
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}

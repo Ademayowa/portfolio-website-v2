@@ -1,0 +1,16 @@
+.container {
+  padding: 10px;
+}
+
+.link > a {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: var(--gray-color) !important;
+}
+
+@media (min-width: 768px) {
+  .link > a {
+    padding: 10px 20px;
+  }
+}
