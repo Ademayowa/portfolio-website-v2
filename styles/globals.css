@@ -15,7 +15,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: 'Lato', sans-serif;
 }
 
@@ -25,4 +26,11 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.center-line {
+  background-color: var(--pink-color);
+  height: 2px;
+  margin: 0px auto 25px;
+  width: 150px;
 }

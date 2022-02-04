@@ -1,0 +1,46 @@
+.experience {
+  padding: 0 20px;
+}
+
+.experience h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.experience h4,
+.experience p {
+  font-size: 18px;
+}
+
+.expdate {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+.duties {
+  display: grid;
+  grid-template-columns: auto 2fr;
+  column-gap: 0.5rem;
+}
+
+.duties svg {
+  color: var(--pink-color);
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.btn-link {
+  border: none;
+  background-color: var(--primary-blue) !important;
+  color: white;
+  text-decoration: none !important;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.btn__active,
+.btn-link:focus,
+.btn-link:hover {
+  color: var(--pink-color);
+  border-left: 2px solid var(--pink-color);
+}
