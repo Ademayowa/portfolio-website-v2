@@ -1,12 +1,3 @@
-/* .projects {
-  padding: 0 20px 50px 14px;
-}
-
-
-.card__content {
-  padding: 20px 0;
-} */
-
 .ptitle {
   font-size: 24px;
 }
@@ -29,10 +20,13 @@
 .picons svg {
   color: var(--pink-color);
   font-size: 16px;
+  margin-top: -5px;
+  margin-right: 2px;
 }
 
 .picons a {
   color: var(--pink-color) !important;
+  font-size: 15px;
 }
 
 .picons svg:hover,
