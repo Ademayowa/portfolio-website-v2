@@ -10,7 +10,7 @@ export default function Project({ project }) {
     <Container>
       <Title title='Stuffs I Have Built' />
       <div className='center-line mb-5' />
-      <Row>
+      <Row className='gx-2'>
         {project.map((project) => (
           <ProjectList key={project.id} project={project} />
         ))}

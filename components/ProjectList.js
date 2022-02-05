@@ -1,6 +1,7 @@
 import { Col, Card, Text } from 'react-bootstrap';
 import Link from 'next/link';
 import { FaGithubSquare } from 'react-icons/fa';
+import { BsEyeFill } from 'react-icons/bs';
 import { FiExternalLink } from 'react-icons/fi';
 import styles from '@/styles/ProjectList.module.css';
 
@@ -9,7 +10,7 @@ export default function ProjectList({
 }) {
   return (
     <Col md={6} lg={4}>
-      <Card className='mt-3 mb-3 p-4'>
+      <Card>
         <Card.Body>
           <Card.Title className={styles.ptitle}>{title}</Card.Title>
 
@@ -18,11 +19,11 @@ export default function ProjectList({
 
           <div className={styles.picons}>
             <a href={url} target='_blank' rel='noopener noreferrer'>
-              <FiExternalLink className='me-3' />
+              <BsEyeFill /> Live
             </a>
             {repo && (
               <a href={repo} target='_blank' rel='noopener noreferrer'>
-                <FaGithubSquare className='me-3' />
+                <FaGithubSquare className='ms-3' />
               </a>
             )}
           </div>
