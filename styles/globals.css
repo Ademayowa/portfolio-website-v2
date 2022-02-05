@@ -30,7 +30,7 @@ ul {
   background-color: var(--pink-color);
   height: 2px;
   margin: 0px auto 25px;
-  width: 120px;
+  width: 100px;
 }
 
 .card {
@@ -46,6 +46,14 @@ ul {
   transform: scale(1.07);
   box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2),
     0 40px 77px 0 rgba(112, 75, 76, 0.5);
+}
+
+@media (max-width: 767px) {
+  h1,
+  h2,
+  .card-title {
+    font-size: 1.24rem !important;
+  }
 }
 
 @media (max-width: 992px) {

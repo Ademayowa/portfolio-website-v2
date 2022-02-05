@@ -28,18 +28,8 @@
   font-size: 16px;
 }
 
-.btn-link {
-  border: none;
-  background-color: var(--primary-blue) !important;
-  color: white;
-  text-decoration: none !important;
-  text-transform: capitalize;
-  font-size: 16px;
-}
-
-.btn__active,
-.btn-link:focus,
-.btn-link:hover {
-  color: var(--pink-color);
-  border-left: 2px solid var(--pink-color);
+@media (max-width: 767px) {
+  .experience h3 {
+    font-size: 1.25rem;
+  }
 }
