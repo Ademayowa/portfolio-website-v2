@@ -28,7 +28,7 @@
 
 .picons svg {
   color: var(--pink-color);
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .picons a {
@@ -37,5 +37,5 @@
 
 .picons svg:hover,
 .picons a:hover {
-  color: var(--white-color);
+  color: var(--white-color) !important;
 }
