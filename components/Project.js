@@ -1,6 +1,6 @@
 import { Container, Row } from 'react-bootstrap';
-import ProjectList from '../components/ProjectList';
-import Title from '../components/Title';
+import ProjectList from './ProjectList';
+import Title from './Title';
 import { projects } from '../data';
 
 export default function Project({ project }) {

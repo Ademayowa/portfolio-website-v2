@@ -3,7 +3,7 @@ import Layout from '@/components/Layout';
 import Hero from '@/components/Hero';
 import Experience from '@/components/Experience';
 import Title from '@/components/Title';
-import Project from 'pages/Project';
+import Project from '@/components/Project';
 import Footer from '@/components/Footer';
 
 export default function HomePage({ experience, project }) {
