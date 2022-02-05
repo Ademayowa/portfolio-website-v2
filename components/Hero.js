@@ -43,7 +43,7 @@ export default function Hero() {
           </div>
         </Col>
 
-        <Col lg={5} className='d-none d-lg-block'>
+        <Col lg={5} className='d-none d-lg-block ps-lg-5'>
           <HeroAnimation />
         </Col>
       </Row>
