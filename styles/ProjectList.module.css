@@ -1,0 +1,36 @@
+/* .projects {
+  padding: 0 20px 50px 14px;
+}
+
+
+.card__content {
+  padding: 20px 0;
+} */
+
+.ptitle {
+  font-size: 24px;
+}
+
+.pinfo {
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+.ptech {
+  word-spacing: 15px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.picons {
+  padding-top: 40px;
+}
+
+.picons svg {
+  color: var(--pink-color);
+  font-size: 20px;
+}
+
+.picons svg:hover {
+  color: var(--white-color);
+}

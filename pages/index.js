@@ -1,34 +1,30 @@
 import { Container, Row, Col } from 'react-bootstrap';
-import { data } from '../data';
+import { data, projects } from '../data';
+// import { projects } from '../projects';
+
 import Layout from '@/components/Layout';
 import Hero from '@/components/Hero';
 import Experience from '@/components/Experience';
 import Title from '@/components/Title';
+import Project from 'pages/Project';
 // import Link from 'next/link';
 // import Image from 'next/image';
 
-export default function HomePage({ experience }) {
-  console.log(experience);
-
+export default function HomePage({ experience, project }) {
   return (
     <Layout title='Mayorstacks | Home'>
       <Hero />
-
-      <Title title='Experience' />
-      <div className='center-line'></div>
-      {experience.map((exp) => (
-        <Experience key={exp.id} experience={exp} />
-      ))}
+      <Experience experience={experience} />
+      <Project project={project} />
     </Layout>
   );
 }
 
 export const getStaticProps = async () => {
   const experience = data;
+  const project = projects;
 
   return {
-    props: {
-      experience,
-    },
+    props: { experience, project },
   };
 };

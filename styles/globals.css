@@ -34,3 +34,23 @@ ul {
   margin: 0px auto 25px;
   width: 150px;
 }
+
+.card {
+  background-color: var(--primary-blue);
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+}
+
+.card-body {
+  padding: 20px 0;
+}
+
+.card-title {
+  font-family: 'Lato', sans-serif;
+}
+
+.card:hover {
+  transform: scale(1.07);
+  box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2),
+    0 40px 77px 0 rgba(112, 75, 76, 0.5);
+}
