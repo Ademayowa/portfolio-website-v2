@@ -8,7 +8,7 @@ export default function Project({ project }) {
 
   return (
     <Container>
-      <Title title='Stuffs I Have Built' />
+      <Title title='My Projects' />
       <div className='center-line mb-5' />
       <Row className='gx-2'>
         {project.map((project) => (
