@@ -4,8 +4,6 @@ import Title from './Title';
 import { projects } from '../data';
 
 export default function Project({ project }) {
-  console.log(project);
-
   return (
     <Container>
       <Title title='My Projects' />
