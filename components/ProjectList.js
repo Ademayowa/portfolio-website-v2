@@ -21,7 +21,7 @@ export default function ProjectList({
             </a>
             {repo && (
               <a href={repo} target='_blank' rel='noopener noreferrer'>
-                <FaCodeBranch className='ms-3' /> Code
+                <FaCodeBranch className='ms-3' /> Source Code
               </a>
             )}
           </div>

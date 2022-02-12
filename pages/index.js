@@ -5,13 +5,15 @@ import Experience from '@/components/Experience';
 import Title from '@/components/Title';
 import Project from '@/components/Project';
 import Footer from '@/components/Footer';
+import Skills from '@/components/Skills';
 
 export default function HomePage({ experience, project }) {
   return (
     <Layout title='Mayorstacks | Home'>
       <Hero />
-      <Experience experience={experience} />
+      <Skills />
       <Project project={project} />
+      <Experience experience={experience} />
       <Footer />
     </Layout>
   );

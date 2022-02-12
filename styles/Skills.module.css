@@ -1,0 +1,22 @@
+.skills {
+  padding: 0 20px 100px 20px;
+}
+
+.badge span {
+  font-size: 16px !important;
+  border: 1px solid var(--gray-color);
+  background-color: transparent !important;
+  font-weight: 600;
+  color: var(--white-color);
+  letter-spacing: 1.2px;
+}
+
+.skills svg {
+  font-size: 2rem;
+}
+
+@media (max-width: 767px) {
+  .skills h2 {
+    font-size: 1.25rem !important;
+  }
+}
