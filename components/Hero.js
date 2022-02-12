@@ -1,4 +1,4 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import { FaTwitterSquare, FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 import HeroAnimation from './HeroAnimation';
 import styles from '@/styles/Hero.module.css';
@@ -12,34 +12,27 @@ export default function Hero() {
           <h2>My name is Mayowa Adeniyi</h2>
           <Col md={10} lg={10} className='ps-0 mt-4 mb-2 fs-4'>
             <p>
-              I'm a software engineer based in Nigeria, focused on building user
-              interface for websites, dashboard & web applications. I also have
-              some experience with Node.js, Express and MongoDB.
+              I'm a software engineer focused on building user interface for
+              websites, dashboard & web applications. I also have some
+              experience with Node.js, Express and MongoDB.
             </p>
           </Col>
 
-          <div className={styles.icons}>
-            <a
-              href='https://twitter.com/mayorstacks'
-              target='_blank'
-              rel='noopener noreferrer'
+          <div>
+            <Button
+              className={styles.btnSecondary}
+              variant='secondary mb-3 me-3'
             >
-              <FaTwitterSquare className='me-2' />
-            </a>
-            <a
-              href='https://github.com/Ademayowa'
+              My Projects
+            </Button>
+            <Button
+              className={styles.btnOutline}
+              href='https://drive.google.com/file/d/1XjSn7t_KU6RmOFB95bj5T3sDsR35u2CA/view?usp=sharing'
               target='_blank'
-              rel='noopener noreferrer'
+              variant='outline-secondary mb-3'
             >
-              <FaGithubSquare className='me-2' />
-            </a>
-            <a
-              href='https://www.linkedin.com/in/ademayowa-adeniyi/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <FaLinkedin className='me-2' />
-            </a>
+              Download Resume
+            </Button>
           </div>
         </Col>
 
