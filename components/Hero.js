@@ -27,7 +27,7 @@ export default function Hero() {
             </Button>
             <Button
               className={styles.btnOutline}
-              href='https://drive.google.com/file/d/1XjSn7t_KU6RmOFB95bj5T3sDsR35u2CA/view?usp=sharing'
+              href='https://bit.ly/3uLPrGH'
               target='_blank'
               variant='outline-secondary mb-3'
             >
