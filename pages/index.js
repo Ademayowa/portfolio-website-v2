@@ -1,17 +1,17 @@
-import { data, projects } from '../data';
+import { data, projects, skills } from '../data';
 import Layout from '@/components/Layout';
 import Hero from '@/components/Hero';
 import Experience from '@/components/Experience';
 import Title from '@/components/Title';
 import Project from '@/components/Project';
-import Footer from '@/components/Footer';
 import Skills from '@/components/Skills';
+import Footer from '@/components/Footer';
 
-export default function HomePage({ experience, project }) {
+export default function HomePage({ experience, project, skill }) {
   return (
-    <Layout title='Mayorstacks | Home'>
+    <Layout title='Mayowa Adeniyi'>
       <Hero />
-      <Skills />
+      <Skills skill={skill} />
       <Project project={project} />
       <Experience experience={experience} />
       <Footer />
@@ -22,8 +22,9 @@ export default function HomePage({ experience, project }) {
 export const getStaticProps = async () => {
   const experience = data;
   const project = projects;
+  const skill = skills;
 
   return {
-    props: { experience, project },
+    props: { experience, project, skill },
   };
 };

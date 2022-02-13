@@ -1,4 +1,4 @@
-import { Col, Card, Text } from 'react-bootstrap';
+import { Col, Card, Text, Badge } from 'react-bootstrap';
 import Link from 'next/link';
 import { FaCodeBranch, FaEye } from 'react-icons/fa';
 import styles from '@/styles/ProjectList.module.css';
@@ -17,7 +17,7 @@ export default function ProjectList({
 
           <div className={styles.picons}>
             <a href={url} target='_blank' rel='noopener noreferrer'>
-              <FaEye /> Live
+              <FaEye /> Preview Site
             </a>
             {repo && (
               <a href={repo} target='_blank' rel='noopener noreferrer'>

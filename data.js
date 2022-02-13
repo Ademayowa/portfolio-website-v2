@@ -59,3 +59,63 @@ export const projects = [
     repo: 'https://github.com/Ademayowa/movie-trailers',
   },
 ];
+
+export const skills = [
+  {
+    id: 1,
+    skill: 'JavaScript (ES6+)',
+  },
+  {
+    id: 2,
+    skill: 'React',
+  },
+  {
+    id: 3,
+    skill: 'Next.js',
+  },
+
+  {
+    id: 4,
+    skill: 'Bootstrap',
+  },
+  {
+    id: 5,
+    skill: 'Tailwind CSS',
+  },
+  {
+    id: 6,
+    skill: 'Node.js',
+  },
+  {
+    id: 7,
+    skill: 'HTML',
+  },
+  {
+    id: 8,
+    skill: 'CSS',
+  },
+  {
+    id: 9,
+    skill: 'Netlify',
+  },
+  {
+    id: 10,
+    skill: 'Heroku',
+  },
+  {
+    id: 11,
+    skill: 'Strapi',
+  },
+  {
+    id: 12,
+    skill: 'Github',
+  },
+  {
+    id: 13,
+    skill: 'Gitlab',
+  },
+  {
+    id: 14,
+    skill: 'Firebase',
+  },
+];
