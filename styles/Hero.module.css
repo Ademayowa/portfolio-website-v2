@@ -32,13 +32,13 @@
   padding: 15px 30px;
 }
 
-.btn {
+/* .btn {
   transition: transform 100ms ease-in;
 }
 
 .btn:hover {
   transform: scale(1.05);
-}
+} */
 
 @media (max-width: 767px) {
   .hero h1,
