@@ -17,7 +17,7 @@ export default function ProjectList({
 
           <div className={styles.picons}>
             <a href={url} target='_blank' rel='noopener noreferrer'>
-              <FaEye /> Preview Site
+              <FaEye /> View Site
             </a>
             {repo && (
               <a href={repo} target='_blank' rel='noopener noreferrer'>
