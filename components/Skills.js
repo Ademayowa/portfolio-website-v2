@@ -11,10 +11,10 @@ export default function Skills({ skill }) {
         <div className='center-line mb-lg-5' />
         <Row>
           <Col md={10} lg={5} className='mx-md-auto'>
-            <h2 className='fs-3 fw-bold mb-4'>
+            <h3 className='mb-4'>
               Programming language, frameworks and libraries, tools and
               platforms I currently work with.
-            </h2>
+            </h3>
           </Col>
 
           <Col md={10} lg={7} className='ps-lg-5 d-flex flex-wrap mx-md-auto'>

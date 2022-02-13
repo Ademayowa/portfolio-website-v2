@@ -1,8 +1,16 @@
 .skills {
-  padding: 0 20px 100px 20px;
+  padding: var(--padding);
 }
 
-.skills h2 {
+.skills p {
+  font-weight: 200;
+  font-size: 24px;
+}
+
+.skills h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
   line-height: 1.5;
 }
 
@@ -15,12 +23,9 @@
   letter-spacing: 1.2px;
 }
 
-.skills svg {
-  font-size: 2rem;
-}
-
-@media (max-width: 767px) {
-  .skills h2 {
-    font-size: 1.25rem !important;
+@media (max-width: 576px) {
+  .skills h3 {
+    font-weight: 300;
+    font-size: 20px;
   }
 }

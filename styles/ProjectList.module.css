@@ -1,9 +1,9 @@
-.ptitle {
-  font-size: 24px;
+.project {
+  padding: var(--padding);
 }
 
-.project {
-  padding: 0 20px 100px 20px;
+.ptitle {
+  font-size: 24px;
 }
 
 .pinfo {

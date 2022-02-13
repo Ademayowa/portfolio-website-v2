@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Nunito+Sans:wght@200;300&display=swap');
 
 :root {
+  --padding: 60px 20px;
   --primary-blue: #131d2f;
   --gray-color: #87898b;
   --secondary-blue: #0f1624;
@@ -31,7 +32,7 @@ ul {
   background-color: var(--pink-color);
   height: 2px;
   margin: 0px auto 25px;
-  width: 100px;
+  width: 120px;
 }
 
 .card {
@@ -49,11 +50,15 @@ ul {
     0 40px 77px 0 rgba(112, 75, 76, 0.5);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 576px) {
   h1,
-  h2,
-  .card-title {
-    font-size: 1.24rem !important;
+  h2 {
+    font-size: 1.875rem !important;
+    margin-top: -0.313rem;
+  }
+
+  p {
+    font-size: 1.25rem !important;
   }
 }
 

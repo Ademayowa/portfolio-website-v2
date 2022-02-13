@@ -1,12 +1,12 @@
 .hero {
-  padding: 3.125rem 1.25rem;
+  /* padding: 3.125rem 1.25rem; */
+  padding: var(--padding);
   color: var(--white-color);
   position: relative;
 }
 
 .hero h1,
 .hero h2 {
-  font-size: 2.688rem;
   font-weight: 700;
 }
 
@@ -30,28 +30,4 @@
   color: var(--white-color);
   letter-spacing: 0.8px;
   padding: 15px 30px;
-}
-
-/* .btn {
-  transition: transform 100ms ease-in;
-}
-
-.btn:hover {
-  transform: scale(1.05);
-} */
-
-@media (max-width: 767px) {
-  .hero h1,
-  .hero h2 {
-    font-size: 1.25rem !important;
-    margin-top: -0.313rem;
-  }
-
-  .hero h2 {
-    margin-bottom: 1.25rem;
-  }
-
-  .hero p {
-    font-size: 1.125rem;
-  }
 }

@@ -1,5 +1,5 @@
 .experience {
-  padding: 0 20px;
+  padding: var(--padding);
 }
 
 .experience h3 {
