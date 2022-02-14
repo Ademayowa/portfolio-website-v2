@@ -1,12 +1,39 @@
-.container {
-  padding: 10px;
+.navbar {
+  padding: 30px 0;
+}
+
+.brand {
+  margin-top: 20px !important;
+}
+
+.logo {
+  font-size: 1.5rem;
+  background-color: var(--pink-color);
+  color: var(--white-color) !important;
+  padding: 5px 10px;
+  font-weight: 600;
+  border-radius: 5px;
 }
 
 .link > a {
   display: flex;
   align-items: center;
   font-weight: 600;
-  color: var(--gray-color) !important;
+  letter-spacing: 0.8px;
+  line-height: 2;
+  color: var(--white-color) !important;
+  margin-top: 10px !important;
+}
+
+.link > a:hover {
+  color: var(--pink-color) !important;
+}
+
+@media (max-width: 575px) {
+  .brand {
+    margin-top: 0 !important;
+    margin-left: 20px;
+  }
 }
 
 @media (min-width: 768px) {

@@ -1,4 +1,5 @@
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import Link from 'next/link';
 // import { FaTwitterSquare, FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 import HeroAnimation from './HeroAnimation';
 import styles from '@/styles/Hero.module.css';
@@ -20,14 +21,14 @@ export default function Hero() {
             </Col>
 
             <div>
-              <Button
+              {/* <Button
                 className={styles.btnSecondary}
                 variant='secondary mb-3 me-3'
               >
                 My Projects
-              </Button>
+              </Button> */}
               <Button
-                className={styles.btnOutline}
+                className={styles.btnSecondary}
                 href='https://bit.ly/3uLPrGH'
                 target='_blank'
                 variant='outline-secondary mb-3'

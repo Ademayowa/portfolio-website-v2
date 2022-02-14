@@ -5,7 +5,7 @@ import styles from '@/styles/Experience.module.css';
 
 export default function Experience({ experience }) {
   return (
-    <section className={styles.experience}>
+    <section className={styles.experience} id='experience'>
       <Container>
         <Title title='Experience' />
         <div className='center-line' />

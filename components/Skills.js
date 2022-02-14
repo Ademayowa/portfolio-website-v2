@@ -5,7 +5,7 @@ import styles from '@/styles/Skills.module.css';
 
 export default function Skills({ skill }) {
   return (
-    <section className={styles.skills}>
+    <section className={styles.skills} id='skills'>
       <Container>
         <Title title='Skills' />
         <div className='center-line mb-lg-5' />

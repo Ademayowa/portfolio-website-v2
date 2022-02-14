@@ -6,15 +6,19 @@ import Title from '@/components/Title';
 import Project from '@/components/Project';
 import Skills from '@/components/Skills';
 import Footer from '@/components/Footer';
+import Header from '@/components/Header';
 
 export default function HomePage({ experience, project, skill }) {
   return (
     <Layout title='Mayowa Adeniyi'>
-      <Hero />
-      <Skills skill={skill} />
-      <Project project={project} />
-      <Experience experience={experience} />
-      <Footer />
+      <main id='home'>
+        <Header />
+        <Hero />
+        <Skills skill={skill} />
+        <Project project={project} />
+        <Experience experience={experience} />
+        <Footer />
+      </main>
     </Layout>
   );
 }

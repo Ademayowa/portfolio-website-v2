@@ -6,7 +6,7 @@ import styles from '@/styles/ProjectList.module.css';
 
 export default function Project({ project }) {
   return (
-    <section className={styles.project}>
+    <section className={styles.project} id='projects'>
       <Container>
         <Title title='My Projects' />
         <div className='center-line mb-5' />

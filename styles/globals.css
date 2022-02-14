@@ -9,6 +9,10 @@
   --white-color: #fff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Nunito Sans', sans-serif;
   background-color: var(--secondary-blue);
@@ -22,10 +26,19 @@ h2 {
 
 a {
   text-decoration: none;
+  font-family: 'Lato', sans-serif;
 }
 
 ul {
   list-style-type: none;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+}
+
+.navbar-toggler-icon {
+  color: var(--pink-color) !important;
 }
 
 .center-line {
