@@ -8,7 +8,7 @@ export default function Layout({ title, description, keywords, children }) {
         <title>{title}</title>
         <meta name='description' content='description' />
         <meta name='keywords' content='keywords' />
-        <link rel='icon' href='/vercel.svg' />
+        <link rel='icon' href='/icon.png' />
       </Head>
 
       {/* <Header /> */}
