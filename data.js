@@ -1,3 +1,5 @@
+import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
+
 export const data = [
   {
     id: 1,
@@ -140,5 +142,23 @@ export const links = [
     id: 4,
     text: 'experience',
     url: '#experience',
+  },
+];
+
+export const footerIcons = [
+  {
+    id: 1,
+    url: 'https://www.linkedin.com/in/ademayowa-adeniyi/',
+    icon: <FaLinkedin />,
+  },
+  {
+    id: 2,
+    url: 'https://github.com/Ademayowa',
+    icon: <FaGithubSquare />,
+  },
+  {
+    id: 3,
+    url: 'https://twitter.com/mayorstacks',
+    icon: <FaTwitterSquare />,
   },
 ];
