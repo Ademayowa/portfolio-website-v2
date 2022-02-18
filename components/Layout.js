@@ -6,8 +6,8 @@ export default function Layout({ title, description, keywords, children }) {
     <>
       <Head>
         <title>{title}</title>
-        <meta name='description' content='description' />
-        <meta name='keywords' content='keywords' />
+        <meta name='description' content={description} />
+        <meta name='keywords' content={keywords} />
         <link rel='icon' href='/icon.png' />
       </Head>
 
@@ -18,6 +18,8 @@ export default function Layout({ title, description, keywords, children }) {
 }
 
 Layout.defaultProps = {
-  title: 'Mayowa Adeniyi',
-  description: 'Mayowa Adeniyi portfolio website',
+  title: 'Mayowa Adeniyi | Website',
+  description: 'mayowa adeniyi website',
+  keywords:
+    'mayowa adeniyi, software engineer, guitar beast, software developer',
 };
