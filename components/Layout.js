@@ -20,6 +20,5 @@ export default function Layout({ title, description, keywords, children }) {
 Layout.defaultProps = {
   title: 'Mayowa Adeniyi | Website',
   description: 'mayowa adeniyi website',
-  keywords:
-    'mayowa adeniyi, software engineer, guitar beast, software developer',
+  keywords: 'mayowa adeniyi, software engineer, guitar beast',
 };
