@@ -11,9 +11,13 @@ export default function ProjectList({
       <Card>
         <Card.Body>
           <Card.Title className={styles.ptitle}>{title}</Card.Title>
-
           <Card.Text className={styles.pinfo}>{info}</Card.Text>
-          <div className={styles.ptech}>{technologies}</div>
+          <h5>Technologies</h5>
+          {technologies.map((tech, index) => (
+            <Badge key={index} bg='secondary' className={styles.tech}>
+              {tech}
+            </Badge>
+          ))}
 
           <div className={styles.picons}>
             <a href={url} target='_blank' rel='noopener noreferrer'>

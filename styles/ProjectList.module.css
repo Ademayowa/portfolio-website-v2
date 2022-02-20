@@ -2,6 +2,16 @@
   padding: var(--padding);
 }
 
+.tech {
+  background-color: transparent !important;
+  border: 1px solid var(--gray-color);
+  margin-right: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0.8px;
+}
+
 .ptitle {
   font-size: 24px;
 }
@@ -11,14 +21,14 @@
   padding: 20px 0;
 }
 
-.ptech {
+/* .ptech {
   word-spacing: 15px;
   font-size: 16px;
   font-weight: 300;
-}
+} */
 
 .picons {
-  padding-top: 40px;
+  padding-top: 80px;
 }
 
 .picons svg {
