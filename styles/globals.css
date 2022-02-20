@@ -51,7 +51,6 @@ ul {
 .card {
   background-color: var(--primary-blue);
   transition: transform 100ms ease-in;
-  cursor: pointer;
   padding: 30px 10px;
   margin: 10px 10px 20px 10px;
   border-radius: 8px;
