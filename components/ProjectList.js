@@ -12,7 +12,7 @@ export default function ProjectList({
         <Card.Body>
           <Card.Title className={styles.ptitle}>{title}</Card.Title>
           <Card.Text className={styles.pinfo}>{info}</Card.Text>
-          <h5>Technologies</h5>
+          <h5 className='mt-4'>Technologies</h5>
           {technologies.map((tech, index) => (
             <Badge key={index} bg='secondary' className={styles.tech}>
               {tech}
