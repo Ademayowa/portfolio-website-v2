@@ -39,10 +39,11 @@ export const data = [
 export const projects = [
   {
     id: '1',
-    title: 'An Hospital Website',
-    info: 'A single page website built with react & bootstrap',
-    technologies: ['React', 'JavaScript', 'Bootstrap', 'CSS3'],
-    url: 'https://charismedhospital.com',
+    title: 'Movie Trailer App',
+    technologies: ['Next.js', 'React', 'JavaScript', 'TailwindCSS', 'TMDB-API'],
+    info: 'A Movie Trailer Application for watching latest trailers',
+    url: 'https://movie-trailers-v2.vercel.app/',
+    repo: 'https://github.com/Ademayowa/movie-trailers-v2',
   },
   {
     id: '2',
@@ -60,11 +61,10 @@ export const projects = [
   },
   {
     id: '3',
-    title: 'Movie Trailer App',
-    technologies: ['Next.js', 'React', 'JavaScript', 'TailwindCSS', 'TMDB-API'],
-    info: 'A Movie Trailer Application for watching latest trailers',
-    url: 'https://movie-trailers-v2.vercel.app/',
-    repo: 'https://github.com/Ademayowa/movie-trailers-v2',
+    title: 'An Hospital Website',
+    info: 'A single page website built with react & bootstrap',
+    technologies: ['React', 'JavaScript', 'Bootstrap', 'CSS3'],
+    url: 'https://charismedhospital.com',
   },
 ];
 
