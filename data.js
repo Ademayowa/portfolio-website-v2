@@ -63,8 +63,8 @@ export const projects = [
     title: 'Movie Trailer App',
     technologies: ['Next.js', 'React', 'JavaScript', 'TailwindCSS', 'TMDB-API'],
     info: 'A Movie Trailer Application for watching latest trailers',
-    url: 'https://movie-trailers-three.vercel.app/',
-    repo: 'https://github.com/Ademayowa/movie-trailers',
+    url: 'https://movie-trailers-v2.vercel.app/',
+    repo: 'https://github.com/Ademayowa/movie-trailers-v2',
   },
 ];
 
