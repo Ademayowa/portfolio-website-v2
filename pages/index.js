@@ -10,7 +10,7 @@ import Header from '@/components/Header';
 
 export default function HomePage({ experience, project, skill }) {
   return (
-    <Layout title='Mayowa Adeniyi'>
+    <Layout title='Mayowa Adeniyi | Software Engineer'>
       <main id='home'>
         <Header />
         <Hero />
