@@ -61,10 +61,10 @@ export const projects = [
   },
   {
     id: '3',
-    title: 'An Hospital Website',
-    info: 'A single page website built with react & bootstrap',
-    technologies: ['React', 'JavaScript', 'Bootstrap', 'CSS3'],
-    url: 'https://charismedhospital.com',
+    title: 'A Landing page website',
+    info: 'A single page website built with react & react-bootstrap',
+    technologies: ['React', 'JavaScript', 'ReactBootstrap', 'CSS3'],
+    url: 'https://api-pay.netlify.app/',
   },
 ];
 
