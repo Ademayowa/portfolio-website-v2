@@ -47,6 +47,13 @@ export const projects = [
   },
   {
     id: '2',
+    title: 'A Landing page website',
+    info: 'A single page website built with react & react-bootstrap',
+    technologies: ['React', 'JavaScript', 'ReactBootstrap', 'CSS3'],
+    url: 'https://api-pay-v4.netlify.app/',
+  },
+  {
+    id: '3',
     title: 'A real estate application',
     info: 'Find house prices for rent or sale in the UAE',
     technologies: [
@@ -58,13 +65,6 @@ export const projects = [
     ],
     url: 'http://real-estate-v1.vercel.app/',
     repo: 'https://github.com/Ademayowa/real-estate-v1',
-  },
-  {
-    id: '3',
-    title: 'A Landing page website',
-    info: 'A single page website built with react & react-bootstrap',
-    technologies: ['React', 'JavaScript', 'ReactBootstrap', 'CSS3'],
-    url: 'https://api-pay.netlify.app/',
   },
 ];
 
