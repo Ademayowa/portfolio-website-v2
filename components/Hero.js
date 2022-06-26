@@ -13,9 +13,9 @@ export default function Hero() {
             <h2>My name is Mayowa Adeniyi</h2>
             <Col md={10} lg={10} className='ps-0 mt-4 mb-2 fs-4'>
               <p>
-                I'm a software engineer focused on building user interface for
-                websites, dashboard & web applications. I also have some
-                experience with Node.js, Express and MongoDB.
+                I'm a software engineer focused on crafting beautiful and
+                intuitive web experince. Currently learning typescript for
+                building react applications.
               </p>
             </Col>
 
