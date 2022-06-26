@@ -22,7 +22,7 @@ export default function Hero() {
             <div>
               <Button
                 className={styles.btnSecondary}
-                href='https://bit.ly/3uLPrGH'
+                href='https://bit.ly/3nhyNK6'
                 target='_blank'
                 variant='outline-secondary mb-3'
               >
