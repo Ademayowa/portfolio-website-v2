@@ -18,8 +18,8 @@ export default function Skills({ skill }) {
           </Col>
 
           <Col md={10} lg={7} className='ps-lg-5 d-flex flex-wrap mx-md-auto'>
-            {skill.map((sk) => (
-              <SkillsList key={sk.id} skill={sk} />
+            {skill.map((cx) => (
+              <SkillsList key={cx.id} skill={cx} />
             ))}
           </Col>
         </Row>
