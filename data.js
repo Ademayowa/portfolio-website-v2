@@ -4,7 +4,18 @@ export const data = [
   {
     id: 1,
     title: 'Software Engineer',
-    date: 'February 2021 - Present',
+    date: 'August 2022 - Present',
+    duties: [
+      'Building apps with React/Typescript, Node.js, Sanity CMS & Tailwind CSS',
+      'Collaborating with UI/UX designer and backend engineers',
+      'Converting figma designs into reusable react components',
+    ],
+    company: 'Africa BIoT Labs',
+  },
+  {
+    id: 2,
+    title: 'Software Engineer',
+    date: 'February 2021 - August 2022',
     duties: [
       'Integrating APIs into web applications that runs on the blockchain network',
       'Building web applications, dashboard, landing pages with react & next.js',
@@ -13,7 +24,7 @@ export const data = [
     company: 'Jelurida Africa',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Web Development Instructor',
     date: 'May 2019 - November 2020',
     duties: [
@@ -23,55 +34,44 @@ export const data = [
     ],
     company: 'NIIT Limited',
   },
-  {
-    id: 3,
-    title: 'Frontend Engineer',
-    date: 'August 2017 - January 2018',
-    duties: [
-      'Built new user interface using various CSS frameworks',
-      'Worked with designers to implement user-friendly landing pages for web applications',
-      'Fixing bugs to ensure web applications are responsive on different devices',
-    ],
-    company: 'Bincom ICT Solutions',
-  },
 ];
 
 export const projects = [
   {
     id: '1',
-    title: 'Movie Trailer App',
-    technologies: ['Next.js', 'React', 'JavaScript', 'TailwindCSS', 'TMDB-API'],
-    info: 'A Movie Trailer Application for watching latest trailers',
-    url: 'https://movie-trailers-v2.vercel.app/',
-    repo: 'https://github.com/Ademayowa/movie-trailers-v2',
+    title: 'A Web Application For an Hospital',
+    technologies: ['React/TypeScript', 'Next.js', 'Tailwind CSS', 'Sanity CMS'],
+    info: 'A Website where patients book appointment & respond to blog post',
+    url: 'https://charis-medhospital-v2.vercel.app/',
   },
   {
     id: '2',
-    title: 'A Landing page website',
-    info: 'A single page website built with react & react-bootstrap',
-    technologies: ['React', 'JavaScript', 'ReactBootstrap', 'CSS3'],
-    url: 'https://api-pay-v4.netlify.app/',
+    title: 'A Job Board Web Application',
+    info: 'A web application where users can search & apply for jobs',
+    technologies: ['React/Next.js', 'JavaScript', 'Node.js', 'Tailwind CSS'],
+    url: 'http://jobapp-v4.vercel.app/',
+    repo: 'https://github.com/Ademayowa/jobapp-v4',
   },
   {
     id: '3',
-    title: 'A real estate application',
-    info: 'Find house prices for rent or sale in the UAE',
+    title: "This Website you're viewing",
+    info: 'Website info for my skills & programming background',
     technologies: [
       'JavaScript',
       'React',
+      'Node.js',
       'Next.js',
       'React Bootstrap',
-      'RapidAPI',
     ],
-    url: 'http://real-estate-v1.vercel.app/',
-    repo: 'https://github.com/Ademayowa/real-estate-v1',
+    url: 'https://mayowa.dev/',
+    repo: 'https://github.com/Ademayowa/portfolio-website-v2',
   },
 ];
 
 export const skills = [
   {
     id: 1,
-    skill: 'JavaScript (ES6+)',
+    skill: 'JavaScript/TypeScript',
   },
   {
     id: 2,
@@ -79,52 +79,56 @@ export const skills = [
   },
   {
     id: 3,
-    skill: 'Next.js',
+    skill: 'Node.js',
   },
 
   {
     id: 4,
-    skill: 'Bootstrap',
+    skill: 'Next.js',
   },
   {
     id: 5,
-    skill: 'Tailwind CSS',
+    skill: 'Sanity CMS',
   },
   {
     id: 6,
-    skill: 'Node.js',
-  },
-  {
-    id: 7,
-    skill: 'HTML',
+    skill: 'Tailwind CSS',
   },
   {
     id: 8,
-    skill: 'CSS',
+    skill: 'React-bootstrap',
   },
   {
     id: 9,
-    skill: 'Netlify',
+    skill: 'Express.js',
   },
   {
     id: 10,
-    skill: 'Heroku',
+    skill: 'HTML5',
   },
   {
     id: 11,
-    skill: 'Strapi',
+    skill: 'CSS',
   },
   {
     id: 12,
-    skill: 'Github',
+    skill: 'Bootstrap5',
   },
   {
     id: 13,
-    skill: 'Gitlab',
+    skill: 'Netlify',
   },
   {
     id: 14,
-    skill: 'Firebase',
+    skill: 'Heroku',
+  },
+  {
+    id: 15,
+    skill: 'Github',
+  },
+  {
+    id: 16,
+    skill: 'Gitlab',
   },
 ];
 
