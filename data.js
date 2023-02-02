@@ -41,8 +41,8 @@ export const projects = [
     id: '1',
     title: 'A Web Application For an Hospital',
     technologies: ['React/TypeScript', 'Next.js', 'Tailwind CSS', 'Sanity CMS'],
-    info: 'A Website where patients book appointment & respond to blog post',
-    url: 'https://charis-medhospital-v2.vercel.app/',
+    info: 'A Website where patients book an appointment',
+    url: 'https://www.charismedhospital.com/',
   },
   {
     id: '2',
