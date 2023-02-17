@@ -10,16 +10,16 @@ import Header from '@/components/Header';
 
 export default function HomePage({ experience, project, skill }) {
   return (
-    <Layout title='Mayowa Adeniyi | Software Engineer'>
+    <>
       <main id='home'>
         <Header />
         <Hero />
         <Skills skill={skill} />
         <Project project={project} />
         <Experience experience={experience} />
-        <Footer />
       </main>
-    </Layout>
+      <Footer />
+    </>
   );
 }
 
