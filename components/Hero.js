@@ -11,11 +11,11 @@ export default function Hero() {
           <Col lg={7}>
             <h1>Hello!</h1>
             <h2>My name is Mayowa Adeniyi</h2>
-            <Col md={10} lg={10} className='ps-0 mt-4 mb-2 fs-4 pb-3'>
+            <Col md={10} lg={10} className='ps-0 mt-4 mb-2 fs-4 pb-2'>
               <p>
                 I'm a software engineer focused on crafting beautiful and
-                intuitive web experience. Currently working with typescript for
-                building react applications.
+                intuitive web experience. Currently working with typescript and
+                sanity CMS.
               </p>
             </Col>
 
