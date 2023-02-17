@@ -1,9 +1,10 @@
 import Head from 'next/head';
-// import Header from './Header';
+import Footer from './Footer';
+import Header from './Header';
 
 export default function Layout({ title, description, keywords, children }) {
   return (
-    <div>
+    <>
       <Head>
         <title>{title}</title>
         <meta name='description' content={description} />
@@ -11,9 +12,10 @@ export default function Layout({ title, description, keywords, children }) {
         <link rel='icon' href='/icon.png' />
       </Head>
 
-      {/* <Header /> */}
+      <Header />
       {children}
-    </div>
+      <Footer />
+    </>
   );
 }
 
