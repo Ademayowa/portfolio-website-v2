@@ -2,9 +2,9 @@
 
 :root {
   --padding: 60px 20px;
-  --primary-blue: #131d2f;
+  --primary-blue: #131d2f !important;
   --gray-color: #87898b;
-  --secondary-blue: #0f1624;
+  --secondary-blue: #0f1624 !important;
   --pink-color: #f97b58;
   --white-color: #fff;
 }
@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Nunito Sans', sans-serif !important;
   background-color: var(--secondary-blue);
   color: var(--white-color);
 }
