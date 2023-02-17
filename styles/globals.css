@@ -56,11 +56,11 @@ ul {
   border-radius: 8px;
 }
 
-.card:hover {
+/* .card:hover {
   transform: scale(1.07);
   box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2),
     0 40px 77px 0 rgba(112, 75, 76, 0.5);
-}
+} */
 
 footer svg {
   color: var(--pink-color);
