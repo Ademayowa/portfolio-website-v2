@@ -15,7 +15,7 @@ export default function Hero() {
               <p>
                 I'm a software engineer focused on crafting beautiful and
                 intuitive web experience. Currently working with typescript and
-                sanity CMS
+                sanity CMS.
               </p>
             </Col>
 
