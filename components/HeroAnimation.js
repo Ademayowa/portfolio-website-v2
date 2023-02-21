@@ -268,6 +268,7 @@ export default function HeroAnimation() {
             <stop stopColor='#945DD6' />
             <stop offset='1' stopColor='#945DD6' stopOpacity='0' />
           </linearGradient>
+
           <linearGradient
             id='paint4_linear'
             x1='476.529'

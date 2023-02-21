@@ -19,7 +19,7 @@ export default function Hero() {
               </p>
             </Col>
 
-            <Link href='https://bit.ly/3bz82P3'>
+            <Link href='http://bit.ly/3XPcKdS'>
               <a
                 className={styles.btnSecondary}
                 href='https://bit.ly/3bz82P3'
