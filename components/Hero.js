@@ -13,13 +13,13 @@ export default function Hero() {
             <h2>My name is Mayowa Adeniyi</h2>
             <Col md={10} lg={10} className='ps-0 mt-4 mb-2 fs-4 pb-2'>
               <p>
-                I'm a software engineer focused on crafting beautiful and
-                intuitive web experience. Currently working with typescript and
-                sanity CMS.
+                I'm a software engineer focus on building intuitive web
+                experience and software solutions. I work with React, NextJS,
+                MERN stack, and the Jamstack.
               </p>
             </Col>
 
-            <Link href='http://bit.ly/3XPcKdS'>
+            <Link href='https://bit.ly/3LAf2dx'>
               <a className={styles.btnSecondary} target='_blank'>
                 Download Resume
               </a>
