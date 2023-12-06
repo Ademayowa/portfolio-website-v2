@@ -6,9 +6,9 @@ export const data = [
     title: 'Software Engineer',
     date: 'August 2022 - Present',
     duties: [
-      'Building apps with React/Typescript, Node.js, Sanity CMS & Tailwind CSS',
-      'Collaborating with UI/UX designer and backend engineers',
-      'Converting figma designs into reusable react components',
+      'Implemented user interface for web applications using React, NextJS, TypeScript, and Tailwind for MVP software products',
+      'Integrated RESTFUL APIs into a web application called EA Kazi - an online teaching, learning, and earning platform designed for users to earn and learn.',
+      'Collaborated with the design, backend, and product teams in meetings to reduce overall task delivery time',
     ],
     company: 'Africa BIoT Labs',
   },
@@ -17,9 +17,9 @@ export const data = [
     title: 'Software Engineer',
     date: 'February 2021 - August 2022',
     duties: [
-      'Integrating APIs into web applications that runs on the blockchain network',
-      'Building web applications, dashboard, landing pages with react & next.js',
-      'Collaborated with designers & backend engineers on different blockchain products',
+      ' Developed the web version for Mydigicert - a blockchain software solution that enables users to validate the authenticity of paper-based certificates',
+      ' Collaborated with the design team to implement admin dashboards and landing pages for different software solutions using React and Tailwind',
+      'Implemented new features for a VueJS application that runs on the blockchain network',
     ],
     company: 'Jelurida Africa',
   },
@@ -28,9 +28,9 @@ export const data = [
     title: 'Web Development Instructor',
     date: 'May 2019 - November 2020',
     duties: [
-      'Taught students how to build responsive layouts with HTML CSS and JavaScript (React & Redux)',
-      'Guided students through the development of their final projects using the MERN stack',
-      'Taught and guided students how to build RESTFUL APIs using Node.js Express and MongoDB',
+      'Trained, guided, and taught over 40 students how to build responsive layouts with HTML, CSS, and JavaScript',
+      ' Taught and guided students on how to develop RESTFUL APIs using Node.js, Express, and MongoDB for their final projects',
+      'Created course materials for the front-end development curriculum',
     ],
     company: 'NIIT Limited',
   },
@@ -39,32 +39,25 @@ export const data = [
 export const projects = [
   {
     id: '1',
-    title: 'A Web Application For an Hospital',
-    technologies: ['React/TypeScript', 'Next.js', 'Tailwind CSS', 'Sanity CMS'],
-    info: 'A Website where patients book an appointment',
-    url: 'https://www.charismedhospital.com/',
+    title: 'A web application for hackathons in Africa',
+    info: 'A web app that list details of hackathons in Africa',
+    technologies: ['TypeScript', 'React', 'NextJS', 'Sanity CMS', 'Tailwind'],
+    url: 'https://www.hackathon.africa/',
   },
   {
     id: '2',
-    title: 'A Job Board Web Application',
-    info: 'A web application where users can search & apply for jobs',
-    technologies: ['React/Next.js', 'JavaScript', 'Node.js', 'Tailwind CSS'],
-    url: 'http://jobapp-v4.vercel.app/',
-    repo: 'https://github.com/Ademayowa/jobapp-v4',
+    title: 'A web application for an hospital',
+    technologies: ['React/TypeScript', 'NextJS', 'Tailwind CSS', 'Sanity CMS'],
+    info: 'A website where patients book an appointment',
+    url: 'https://www.charismedhospital.com/',
   },
   {
     id: '3',
-    title: "This Website you're viewing",
-    info: 'Website info for my skills & programming background',
-    technologies: [
-      'JavaScript',
-      'React',
-      'Node.js',
-      'Next.js',
-      'React Bootstrap',
-    ],
-    url: 'https://mayowa.dev/',
-    repo: 'https://github.com/Ademayowa/portfolio-website-v2',
+    title: 'A job board web application',
+    info: 'A web application where users can search & apply for jobs',
+    technologies: ['React/NextJS', 'JavaScript', 'Node.js', 'Tailwind CSS'],
+    url: 'http://jobapp-v4.vercel.app/',
+    repo: 'https://github.com/Ademayowa/jobapp-v4',
   },
 ];
 
@@ -79,12 +72,12 @@ export const skills = [
   },
   {
     id: 3,
-    skill: 'Node.js',
+    skill: 'NextJS',
   },
 
   {
     id: 4,
-    skill: 'Next.js',
+    skill: 'NodeJS',
   },
   {
     id: 5,
@@ -95,39 +88,31 @@ export const skills = [
     skill: 'Tailwind CSS',
   },
   {
-    id: 8,
-    skill: 'React-bootstrap',
-  },
-  {
-    id: 9,
-    skill: 'Express.js',
-  },
-  {
-    id: 10,
+    id: 7,
     skill: 'HTML5',
   },
   {
-    id: 11,
+    id: 8,
     skill: 'CSS',
   },
   {
-    id: 12,
-    skill: 'Bootstrap5',
+    id: 9,
+    skill: 'Bootstrap',
   },
   {
-    id: 13,
+    id: 10,
     skill: 'Netlify',
   },
   {
-    id: 14,
+    id: 11,
     skill: 'Heroku',
   },
   {
-    id: 15,
+    id: 12,
     skill: 'Github',
   },
   {
-    id: 16,
+    id: 13,
     skill: 'Gitlab',
   },
 ];
