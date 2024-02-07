@@ -39,36 +39,47 @@ export const data = [
 export const projects = [
   {
     id: '1',
-    title: 'A web application for hackathons in Africa',
-    info: 'A web app that list details of hackathons in Africa',
-    technologies: ['TypeScript', 'React', 'NextJS', 'Sanity CMS', 'Tailwind'],
-    url: 'https://www.hackathon.africa/',
+    title: 'A web application portal for urls submission',
+    info: 'A web application portal that stores the number of submitted urls',
+    technologies: ['TypeScript', 'NextJS', 'MongoDB', 'NodeJS', 'Sanity'],
+    url: 'https://www.icpsahara.africa/',
   },
   {
     id: '2',
-    title: 'A web application for an hospital',
-    technologies: ['React/TypeScript', 'NextJS', 'Tailwind CSS', 'Sanity CMS'],
-    info: 'A website where patients book an appointment',
-    url: 'https://www.charismedhospital.com/',
+    title: 'A web application for hackathons in Africa',
+    info: 'A web app that list details of hackathons in Africa',
+    technologies: ['TypeScript', 'React', 'NextJS', 'Sanity', 'Tailwind'],
+    url: 'https://www.hackathon.africa/',
   },
   {
     id: '3',
-    title: 'A job board web application',
-    info: 'A web application where users can search & apply for jobs',
-    technologies: ['React/NextJS', 'JavaScript', 'Node.js', 'Tailwind CSS'],
-    url: 'http://jobapp-v4.vercel.app/',
-    repo: 'https://github.com/Ademayowa/jobapp-v4',
+    title: 'A web application for an hospital',
+    technologies: ['React/TypeScript', 'NextJS', 'Tailwind', 'Sanity'],
+    info: 'A website where patients book an appointment',
+    url: 'https://www.charismedhospital.com/',
   },
+  // {
+  //   id: '4',
+  //   title: 'A job board web application',
+  //   info: 'A web application where users can search & apply for jobs',
+  //   technologies: ['React/NextJS', 'JavaScript', 'Node.js', 'Tailwind CSS'],
+  //   url: 'http://jobapp-v4.vercel.app/',
+  //   repo: 'https://github.com/Ademayowa/jobapp-v4',
+  // },
 ];
 
 export const skills = [
   {
     id: 1,
-    skill: 'JavaScript/TypeScript',
+    skill: 'JavaScript',
   },
   {
     id: 2,
     skill: 'React',
+  },
+  {
+    id: 16,
+    skill: 'TypeScript',
   },
   {
     id: 3,
@@ -80,28 +91,36 @@ export const skills = [
     skill: 'NodeJS',
   },
   {
+    id: 19,
+    skill: 'Postgres',
+  },
+  {
     id: 5,
-    skill: 'Sanity CMS',
+    skill: 'MongoDB',
   },
   {
     id: 6,
-    skill: 'Tailwind CSS',
+    skill: 'Supabase',
   },
   {
     id: 7,
-    skill: 'HTML5',
+    skill: 'Sanity',
   },
   {
     id: 8,
-    skill: 'CSS',
+    skill: 'Tailwind CSS',
   },
   {
-    id: 9,
+    id: 18,
     skill: 'Bootstrap',
   },
   {
+    id: 9,
+    skill: 'HTML5',
+  },
+  {
     id: 10,
-    skill: 'Netlify',
+    skill: 'CSS',
   },
   {
     id: 11,
@@ -109,11 +128,23 @@ export const skills = [
   },
   {
     id: 12,
-    skill: 'Github',
+    skill: 'Vercel',
   },
   {
     id: 13,
+    skill: 'Netlify',
+  },
+  {
+    id: 14,
+    skill: 'Github',
+  },
+  {
+    id: 15,
     skill: 'Gitlab',
+  },
+  {
+    id: 17,
+    skill: 'Docker',
   },
 ];
 

@@ -14,7 +14,7 @@ export default function Hero() {
             <Col md={10} lg={10} className='ps-0 mt-4 mb-2 fs-4 pb-2'>
               <p>
                 I'm a software engineer focus on building intuitive web
-                experience and software solutions. I work with React, NextJS,
+                experience and software products. I work with React, NextJS,
                 MERN stack, and the Jamstack.
               </p>
             </Col>
