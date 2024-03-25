@@ -55,7 +55,7 @@ export const projects = [
     id: '3',
     title: 'A web application for real estate',
     technologies: ['React/TypeScript', 'NextJS', 'Tailwind', 'Sanity'],
-    info: 'Find real estate properties',
+    info: 'Find real estate properties of your choice',
     url: 'https://damlaf-multiventures.vercel.app/',
     repo: 'https://github.com/Ademayowa/damlaf-multiventures'
   },
