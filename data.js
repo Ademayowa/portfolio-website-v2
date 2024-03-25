@@ -53,10 +53,11 @@ export const projects = [
   },
   {
     id: '3',
-    title: 'A web application for an hospital',
+    title: 'A web application for real estate',
     technologies: ['React/TypeScript', 'NextJS', 'Tailwind', 'Sanity'],
-    info: 'A website where patients book an appointment',
-    url: 'https://www.charismedhospital.com/',
+    info: 'Find real estate properties',
+    url: 'https://damlaf-multiventures.vercel.app/',
+    repo: 'https://github.com/Ademayowa/damlaf-multiventures'
   },
   // {
   //   id: '4',
