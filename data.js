@@ -57,7 +57,6 @@ export const projects = [
     technologies: ['React/TypeScript', 'NextJS', 'Tailwind', 'Sanity'],
     info: 'Find real estate properties of your choice',
     url: 'https://damlaf-multiventures.vercel.app/',
-    repo: 'https://github.com/Ademayowa/damlaf-multiventures'
   },
   // {
   //   id: '4',
