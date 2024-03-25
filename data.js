@@ -4,7 +4,7 @@ export const data = [
   {
     id: 1,
     title: 'Software Engineer',
-    date: 'August 2022 - Present',
+    date: 'August 2022 - December 2023',
     duties: [
       'Implemented user interface for web applications using React, NextJS, TypeScript, and Tailwind for MVP software products',
       'Integrated RESTFUL APIs into a web application called EA Kazi - an online teaching, learning, and earning platform designed for users to earn and learn.',
