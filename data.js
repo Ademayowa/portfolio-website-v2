@@ -39,8 +39,8 @@ export const data = [
 export const projects = [
   {
     id: '1',
-    title: 'A web application portal for urls submission',
-    info: 'A web application portal that stores the number of submitted urls',
+    title: 'A web application portal for hackathon registration',
+    info: 'A web portal that displays number of submitted users projects',
     technologies: ['TypeScript', 'NextJS', 'MongoDB', 'NodeJS', 'Sanity'],
     url: 'https://www.icpsahara.africa/',
   },
