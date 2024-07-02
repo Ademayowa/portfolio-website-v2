@@ -56,7 +56,7 @@ export const projects = [
      title: 'A job board web application',
     info: 'A web application where users can search & apply for jobs',
      technologies: ['React/NextJS', 'JavaScript', 'Node.js', 'Tailwind CSS'],
-    url: 'http://jobapp-v4.vercel.app/',
+    url: 'https://job-board-ibk.vercel.app/',
     repo: 'https://github.com/Ademayowa/job-board-ibk',
    },
 ];
