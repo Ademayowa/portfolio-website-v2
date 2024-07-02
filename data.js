@@ -51,21 +51,14 @@ export const projects = [
     technologies: ['TypeScript', 'React', 'NextJS', 'Sanity', 'Tailwind'],
     url: 'https://www.hackathon.africa/',
   },
-  {
-    id: '3',
-    title: 'A web application for real estate',
-    technologies: ['React/TypeScript', 'NextJS', 'Tailwind', 'Sanity'],
-    info: 'Find real estate properties of your choice',
-    url: 'https://damlaf-multiventures.vercel.app/',
-  },
-  // {
-  //   id: '4',
-  //   title: 'A job board web application',
-  //   info: 'A web application where users can search & apply for jobs',
-  //   technologies: ['React/NextJS', 'JavaScript', 'Node.js', 'Tailwind CSS'],
-  //   url: 'http://jobapp-v4.vercel.app/',
-  //   repo: 'https://github.com/Ademayowa/jobapp-v4',
-  // },
+ {
+     id: '3',
+     title: 'A job board web application',
+    info: 'A web application where users can search & apply for jobs',
+     technologies: ['React/NextJS', 'JavaScript', 'Node.js', 'Tailwind CSS'],
+    url: 'http://jobapp-v4.vercel.app/',
+    repo: 'https://github.com/Ademayowa/job-board-ibk',
+   },
 ];
 
 export const skills = [
