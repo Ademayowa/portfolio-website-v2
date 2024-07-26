@@ -4,7 +4,7 @@ export const data = [
     {
     id: 1,
     title: 'Software Engineer',
-    date: 'October 2022 - Present',
+    date: 'October 2023 - Present',
     duties: [
       'Designing and developing an AI chatbot using React, NextJS, TypeScript, PostgreSQL, and GraphQL',
       'Designed database schemas and API endpoints with NextJS and MongoDB for a web application',
@@ -18,8 +18,8 @@ export const data = [
     date: 'August 2022 - December 2023',
     duties: [
       'Implemented user interface for web applications using React, NextJS, and TypeScript for MVP products',
-      'Integrated RESTFUL APIs into a web application called EA Kazi - an online teaching, learning, and earning platform designed for users to earn and learn.',
-      'Collaborated with the design, backend, and product teams in meetings to reduce overall task delivery time',
+      ' Integrated RESTFUL APIs into EA Kazi - a web app designed for teaching, learning, and earning',
+      ' Collaborated with the design and backend teams in meetings to reduce overall task delivery time',
     ],
     company: 'Africa BIoT Labs',
   },
@@ -28,8 +28,8 @@ export const data = [
     title: 'Software Engineer',
     date: 'February 2021 - August 2022',
     duties: [
-      ' Developed the web version for Mydigicert - a blockchain software solution that enables users to validate the authenticity of paper-based certificates',
-      ' Collaborated with the design team to implement admin dashboards for different software solutions using React',
+      'Developed a web version for a software that validates the authenticity of paper-based certificates',
+      'Collaborated with designers to implement admin dashboards for software solutions using React',
       'Implemented new features for a VueJS application that runs on the blockchain network',
     ],
     company: 'Jelurida Africa',
@@ -39,8 +39,8 @@ export const data = [
     title: 'Web Development Instructor',
     date: 'May 2019 - November 2020',
     duties: [
-      'Trained, guided, and taught over 40 students how to build responsive layouts with HTML, CSS, and JavaScript',
-      ' Taught and guided students on how to develop RESTFUL APIs using Node.js, Express, and MongoDB for their final projects',
+      'Trained and taught over 40 students to build responsive layouts with HTML, CSS, and JavaScript',
+      'Taught and guided students how to develop RESTFUL APIs using NodeJS, Express, and MongoDB',
       'Created course materials for the front-end development curriculum',
     ],
     company: 'NIIT Limited',
@@ -51,14 +51,14 @@ export const projects = [
   {
     id: '1',
     title: 'A web application portal for hackathon registration',
-    info: 'A web portal that displays number of submitted users projects',
+    info: 'A web portal that tracks numbers of submitted users projects',
     technologies: ['TypeScript', 'NextJS', 'MongoDB', 'NodeJS', 'Sanity'],
     url: 'https://www.icpsahara.africa/',
   },
   {
     id: '2',
     title: 'A web application for hackathons in Africa',
-    info: 'A web app that list details of hackathons in Africa',
+    info: 'A web app that lists details of hackathons across Africa',
     technologies: ['TypeScript', 'React', 'NextJS', 'Sanity', 'Tailwind'],
     url: 'https://www.hackathon.africa/',
   },
@@ -96,7 +96,7 @@ export const skills = [
   },
   {
     id: 19,
-    skill: 'Postgres',
+    skill: 'PostgreSQL',
   },
   {
     id: 5,
@@ -108,15 +108,15 @@ export const skills = [
   },
   {
     id: 7,
+    skill: 'GraphQL',
+  },
+      {
+    id: 18,
     skill: 'Sanity',
   },
   {
     id: 8,
     skill: 'Tailwind CSS',
-  },
-  {
-    id: 18,
-    skill: 'Bootstrap',
   },
   {
     id: 9,
