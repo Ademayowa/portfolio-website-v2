@@ -1,30 +1,41 @@
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 
 export const data = [
-  {
+    {
     id: 1,
     title: 'Software Engineer',
+    date: 'October 2022 - Present',
+    duties: [
+      'Designing and developing an AI chatbot using React, NextJS, TypeScript, PostgreSQL, and GraphQL',
+      'Designed database schemas and API endpoints with NextJS and MongoDB for a web application',
+      'Redesigned and migrated a WordPress site to use NextJS and Sanity to reduce page load by 80%',
+    ],
+    company: 'AppcraftHQ',
+  },
+  {
+    id: 2,
+    title: 'Frontend Engineer',
     date: 'August 2022 - December 2023',
     duties: [
-      'Implemented user interface for web applications using React, NextJS, TypeScript, and Tailwind for MVP software products',
+      'Implemented user interface for web applications using React, NextJS, and TypeScript for MVP products',
       'Integrated RESTFUL APIs into a web application called EA Kazi - an online teaching, learning, and earning platform designed for users to earn and learn.',
       'Collaborated with the design, backend, and product teams in meetings to reduce overall task delivery time',
     ],
     company: 'Africa BIoT Labs',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Software Engineer',
     date: 'February 2021 - August 2022',
     duties: [
       ' Developed the web version for Mydigicert - a blockchain software solution that enables users to validate the authenticity of paper-based certificates',
-      ' Collaborated with the design team to implement admin dashboards and landing pages for different software solutions using React and Tailwind',
+      ' Collaborated with the design team to implement admin dashboards for different software solutions using React',
       'Implemented new features for a VueJS application that runs on the blockchain network',
     ],
     company: 'Jelurida Africa',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Web Development Instructor',
     date: 'May 2019 - November 2020',
     duties: [
