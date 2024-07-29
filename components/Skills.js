@@ -17,7 +17,7 @@ export default function Skills({ skill }) {
             </h3>
           </Col>
 
-          <Col md={10} lg={7} className='ps-lg-5 d-flex flex-wrap mx-md-auto'>
+          <Col md={10} lg={7} className='ps-lg-4 d-flex flex-wrap mx-md-auto'>
             {skill.map((cx) => (
               <SkillsList key={cx.id} skill={cx} />
             ))}
