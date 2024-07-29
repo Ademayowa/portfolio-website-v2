@@ -14,7 +14,7 @@ export default function Hero() {
             <Col md={10} lg={10} className='ps-0 mt-4 mb-2 fs-4 pb-2'>
               <p>
                 I'm a software engineer focused on building intuitive web
-                experience and innovative software products that solve business needs.
+                experience and innovative software solutions that solve business needs.
               </p>
             </Col>
 
