@@ -75,28 +75,20 @@ export const projects = [
 export const skills = [
   {
     id: 1,
-    skill: 'JavaScript',
+    skill: 'React/Next.js',
   },
   {
     id: 2,
-    skill: 'React',
-  },
-  {
-    id: 16,
     skill: 'TypeScript',
   },
   {
     id: 3,
-    skill: 'NextJS',
+    skill: 'Go (Golang)',
   },
 
   {
     id: 4,
-    skill: 'NodeJS',
-  },
-  {
-    id: 19,
-    skill: 'PostgreSQL',
+    skill: 'Node.js',
   },
   {
     id: 5,
@@ -104,50 +96,38 @@ export const skills = [
   },
   {
     id: 6,
-    skill: 'Supabase',
-  },
-  {
-    id: 7,
-    skill: 'GraphQL',
-  },
-      {
-    id: 18,
     skill: 'Sanity',
   },
   {
-    id: 8,
+    id: 7,
     skill: 'Tailwind CSS',
   },
   {
-    id: 9,
+    id: 8,
     skill: 'HTML5',
   },
   {
-    id: 10,
+    id: 9,
     skill: 'CSS',
   },
   {
-    id: 11,
-    skill: 'Heroku',
-  },
-  {
-    id: 12,
+    id: 10,
     skill: 'Vercel',
   },
   {
-    id: 13,
+    id: 11,
     skill: 'Netlify',
   },
   {
-    id: 14,
+    id: 12,
     skill: 'Github',
   },
   {
-    id: 15,
+    id: 13,
     skill: 'Gitlab',
   },
   {
-    id: 17,
+    id: 14,
     skill: 'Docker',
   },
 ];
