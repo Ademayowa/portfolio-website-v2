@@ -75,7 +75,7 @@ export const projects = [
 export const skills = [
   {
     id: 1,
-    skill: 'React/Next.js',
+    skill: 'React | Next.js',
   },
   {
     id: 2,
@@ -83,7 +83,7 @@ export const skills = [
   },
   {
     id: 3,
-    skill: 'Go (Golang)',
+    skill: 'Go(Golang)',
   },
 
   {
