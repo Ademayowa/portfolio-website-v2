@@ -107,7 +107,7 @@ export const skills = [
     skill: 'Vercel',
   },
   {
-    id: 9
+    id: 9,
     skill: 'Netlify',
   },
   {
