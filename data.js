@@ -83,7 +83,7 @@ export const skills = [
   },
   {
     id: 3,
-    skill: 'Go(Golang)',
+    skill: 'Go (Golang)',
   },
 
   {
