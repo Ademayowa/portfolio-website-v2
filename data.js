@@ -104,18 +104,26 @@ export const skills = [
   },
   {
     id: 8,
-    skill: 'Vercel',
+    skill: 'HTML5',
   },
   {
     id: 9,
-    skill: 'Netlify',
+    skill: 'CSS3',
   },
   {
     id: 10,
-    skill: 'Github',
+    skill: 'Vercel',
   },
   {
     id: 11,
+    skill: 'Netlify',
+  },
+  {
+    id: 12,
+    skill: 'Github',
+  },
+  {
+    id: 13,
     skill: 'Gitlab',
   },
   {
