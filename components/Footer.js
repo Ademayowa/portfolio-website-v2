@@ -22,7 +22,7 @@ export default function Footer() {
         </div>
 
         <Link href='#top'>
-          <a className='text-white'>&copy; 2025. Built by Mayowa Adeniyi</a>
+          <a className='text-white'>&copy; 2025. All rights reserved. Built by Mayowa Adeniyi</a>
         </Link>
       </Container>
     </footer>
