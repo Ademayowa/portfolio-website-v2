@@ -52,23 +52,23 @@ export const projects = [
     id: '1',
     title: 'A web application portal for hackathon registration',
     info: 'A web portal that tracks numbers of submitted users projects',
-    technologies: ['TypeScript', 'NextJS', 'MongoDB', 'NodeJS', 'Sanity'],
+    technologies: ['TypeScript', 'React|NextJS', 'MongoDB', 'NodeJS', 'Sanity'],
     url: 'https://www.icpsahara.africa/',
   },
   {
     id: '2',
     title: 'A web application for hackathons in Africa',
     info: 'A web app that lists details of hackathons across Africa',
-    technologies: ['TypeScript', 'React', 'NextJS', 'Sanity', 'Tailwind'],
+    technologies: ['TypeScript', 'React|NextJS', 'Sanity', 'Tailwind'],
     url: 'https://www.hackathon.africa/',
   },
  {
      id: '3',
      title: 'A job board web application',
     info: 'A web application where users can search & apply for jobs',
-     technologies: ['React/NextJS', 'JavaScript', 'Node.js', 'Tailwind CSS'],
-    url: 'https://job-board-ibk.vercel.app/',
-    repo: 'https://github.com/Ademayowa/job-board-ibk',
+     technologies: ['React|NextJS', 'Go', 'TypeScript', 'Tailwind'],
+    url: 'https://job-board-v3.vercel.app/',
+    repo: 'https://github.com/Ademayowa/job-board-v3',
    },
 ];
 
