@@ -59,7 +59,7 @@ export const projects = [
     id: '2',
     title: 'A web application for hackathons in Africa',
     info: 'A web app that lists details of hackathons across Africa',
-    technologies: ['TypeScript', 'React|NextJS', 'Sanity', 'Tailwind'],
+    technologies: ['TypeScript', 'React|NextJS', 'Sanity', 'Tailwind', 'NodeJS'],
     url: 'https://www.hackathon.africa/',
   },
  {
