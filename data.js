@@ -104,34 +104,30 @@ export const skills = [
   },
   {
     id: 8,
-    skill: 'SQLite',
-  },
-  {
-    id: 9,
     skill: 'Sanity',
   },
   {
-    id: 10,
+    id: 9,
     skill: 'Tailwind CSS',
   },
   {
-    id: 11,
+    id: 10,
     skill: 'Vercel',
   },
   {
-    id: 12,
+    id: 11,
     skill: 'Netlify',
   },
   {
-    id: 13,
+    id: 12,
     skill: 'Github',
   },
   {
-    id: 14,
+    id: 13,
     skill: 'Gitlab',
   },
   {
-    id: 15,
+    id: 14,
     skill: 'Docker',
   },
 ];
