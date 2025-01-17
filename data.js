@@ -79,55 +79,59 @@ export const skills = [
   },
   {
     id: 2,
-    skill: 'React | Next.js',
+    skill: 'React',
   },
   {
     id: 3,
+    skill: 'Next.js',
+  },
+  {
+    id: 4,
     skill: 'TypeScript',
   },
 
   {
-    id: 4,
+    id: 5,
     skill: 'Node.js',
   },
   {
-    id: 5,
+    id: 6,
     skill: 'MongoDB',
   },
   {
-    id: 6,
-    skill: 'Sanity',
-  },
-  {
     id: 7,
-    skill: 'Tailwind CSS',
+    skill: 'PostgreSQL',
   },
   {
     id: 8,
-    skill: 'HTML5',
+    skill: 'SQLite',
   },
   {
     id: 9,
-    skill: 'CSS3',
+    skill: 'Sanity',
   },
   {
     id: 10,
-    skill: 'Vercel',
+    skill: 'Tailwind CSS',
   },
   {
     id: 11,
+    skill: 'Vercel',
+  },
+  {
+    id: 12,
     skill: 'Netlify',
   },
   {
-    id: 12,
+    id: 13,
     skill: 'Github',
   },
   {
-    id: 13,
+    id: 14,
     skill: 'Gitlab',
   },
   {
-    id: 12,
+    id: 15,
     skill: 'Docker',
   },
 ];
