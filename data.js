@@ -60,7 +60,7 @@ export const projects = [
     title: 'A web application for hackathons in Africa',
     info: 'A web app that lists details of hackathons across Africa',
     technologies: ['TypeScript', 'React|NextJS', 'Sanity', 'Tailwind', 'NodeJS'],
-    url: 'https://www.hackathon.africa/',
+    url: 'https://icp-hub.vercel.app/',
   },
  {
      id: '3',
