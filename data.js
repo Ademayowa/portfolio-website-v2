@@ -53,7 +53,7 @@ export const projects = [
     title: 'A web application portal for hackathon registration',
     info: 'A web portal that tracks numbers of submitted users projects',
     technologies: ['TypeScript', 'React|NextJS', 'MongoDB', 'NodeJS', 'Sanity'],
-    url: 'https://icp-hub.vercel.app/',
+    url: 'https://www.icpsahara.africa/',
   },
   {
     id: '2',
