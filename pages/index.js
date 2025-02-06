@@ -11,8 +11,8 @@ export default function HomePage({ experience, project, skill }) {
     <Layout title='Mayowa Adeniyi | Software Engineer'>
       <main id='home'>
         <Hero />
+         <Project project={project} />
         <Skills skill={skill} />
-        <Project project={project} />
         // <Experience experience={experience} />
       </main>
     </Layout>
