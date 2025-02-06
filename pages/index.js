@@ -13,7 +13,6 @@ export default function HomePage({ experience, project, skill }) {
         <Hero />
          <Project project={project} />
         <Skills skill={skill} />
-        // <Experience experience={experience} />
       </main>
     </Layout>
   );
@@ -21,10 +20,9 @@ export default function HomePage({ experience, project, skill }) {
 
 export const getStaticProps = async () => {
   const experience = data;
-  const project = projects;
   const skill = skills;
 
   return {
-    props: { experience, project, skill },
+    props: { experience, skill },
   };
 };
