@@ -13,7 +13,7 @@ export default function HomePage({ experience, project, skill }) {
         <Hero />
         <Skills skill={skill} />
         <Project project={project} />
-        <Experience experience={experience} />
+        // <Experience experience={experience} />
       </main>
     </Layout>
   );
