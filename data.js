@@ -57,7 +57,7 @@ export const projects = [
   },
    {
      id: '2',
-     title: 'A job board for Golang positions',
+     title: 'A job board for Golang & DevOps roles',
     info: 'An app that allows anyone to search & apply for Golang related jobs',
      technologies: ['Go', 'SQLite', 'React|NextJS', 'TypeScript', 'Tailwind'],
     url: 'https://job-board-v3.vercel.app/',
