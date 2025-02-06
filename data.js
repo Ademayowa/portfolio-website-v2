@@ -55,21 +55,20 @@ export const projects = [
     technologies: ['TypeScript', 'React|NextJS', 'MongoDB', 'NodeJS', 'Sanity'],
     url: 'https://www.icpsahara.africa/',
   },
+   {
+     id: '2',
+     title: 'A job board web application',
+    info: 'A web application where users can search & apply for Golang related jobs',
+     technologies: ['Go', 'SQLite', 'React|NextJS', 'TypeScript', 'Tailwind'],
+    url: 'https://job-board-v3.vercel.app/',
+   }, 
   {
-    id: '2',
+    id: '3',
     title: 'A web application for hackathons in Africa',
     info: 'A web app that lists details of hackathons across Africa',
     technologies: ['TypeScript', 'React|NextJS', 'Sanity', 'Tailwind', 'NodeJS'],
     url: 'https://www.hackathon.africa/',
   },
- {
-     id: '3',
-     title: 'A job board web application',
-    info: 'A web application where users can search & apply for jobs',
-     technologies: ['Go', 'SQLite', 'React|NextJS', 'TypeScript', 'Tailwind'],
-    url: 'https://job-board-v3.vercel.app/',
-    repo: 'https://github.com/Ademayowa/job-board-v3',
-   },
 ];
 
 export const skills = [
