@@ -137,16 +137,17 @@ export const links = [
     text: 'home',
     url: '#home',
   },
-  {
+   {
     id: 2,
-    text: 'skills',
-    url: '#skills',
-  },
-  {
-    id: 3,
     text: 'projects',
     url: '#projects',
   },
+  {
+    id: 3,
+    text: 'skills',
+    url: '#skills',
+  },
+ 
   // {
   //   id: 4,
   //   text: 'experience',
