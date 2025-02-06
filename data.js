@@ -148,11 +148,11 @@ export const links = [
     text: 'projects',
     url: '#projects',
   },
-  {
-    id: 4,
-    text: 'experience',
-    url: '#experience',
-  },
+  // {
+  //   id: 4,
+  //   text: 'experience',
+  //   url: '#experience',
+  // },
 ];
 
 export const footerIcons = [
