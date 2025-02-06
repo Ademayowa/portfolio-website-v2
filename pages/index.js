@@ -6,7 +6,7 @@ import Title from '@/components/Title';
 import Project from '@/components/Project';
 import Skills from '@/components/Skills';
 
-export default function HomePage({ experience, project, skill }) {
+export default function HomePage({ project, skill }) {
   return (
     <Layout title='Mayowa Adeniyi | Software Engineer'>
       <main id='home'>
@@ -19,10 +19,10 @@ export default function HomePage({ experience, project, skill }) {
 }
 
 export const getStaticProps = async () => {
-  const experience = data;
+  const project = projects;
   const skill = skills;
 
   return {
-    props: { experience, skill },
+    props: { project, skill },
   };
 };
