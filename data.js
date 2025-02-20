@@ -52,7 +52,7 @@ export const projects = [
     id: '1',
     title: 'A web application portal for hackathon registration',
     info: 'A web portal that tracks numbers of submitted users projects',
-    technologies: ['TypeScript', 'React|NextJS', 'MongoDB', 'NodeJS', 'Sanity'],
+    technologies: ['TypeScript', 'React | NextJS', 'MongoDB', 'NodeJS', 'Sanity'],
     url: 'https://www.icpsahara.africa/',
   },
    {
