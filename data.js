@@ -103,15 +103,15 @@ export const skills = [
   },
   {
     id: 8,
-    skill: 'Sanity',
+    skill: 'AWS',
   },
   {
     id: 9,
-    skill: 'Tailwind CSS',
+    skill: 'Terraform',
   },
   {
     id: 10,
-    skill: 'Vercel',
+    skill: 'GitHub Actions',
   },
   {
     id: 11,
