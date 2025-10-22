@@ -115,15 +115,15 @@ export const skills = [
   },
   {
     id: 11,
-    skill: 'Netlify',
+    skill: 'GitLab CI',
   },
   {
     id: 12,
-    skill: 'Github',
+    skill: 'Jenkins',
   },
   {
     id: 13,
-    skill: 'Gitlab',
+    skill: 'Git',
   },
   {
     id: 14,
