@@ -18,7 +18,7 @@ export default function Hero() {
               </p>
             </Col>
 
-            <Link href='https://bit.ly/471yFpZ'> 
+            <Link href='https://bit.ly/4qBziyg'> 
               <a className={styles.btnSecondary} target='_blank'>
                 Download Resume
               </a>
