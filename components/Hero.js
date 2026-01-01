@@ -13,7 +13,7 @@ export default function Hero() {
             <h2>My name is Mayowa Adeniyi</h2>
             <Col md={10} lg={10} className='ps-0 mt-4 mb-2 fs-4 pb-2'>
               <p>
-                I'm a DevOps engineer focused on building reliable & scalable production-ready platforms.
+                I'm a DevOps & Cloud engineer focused on building reliable and scalable production-ready platforms.
               </p>
             </Col>
 
