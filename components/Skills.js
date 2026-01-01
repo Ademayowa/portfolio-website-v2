@@ -12,7 +12,7 @@ export default function Skills({ skill }) {
         <Row>
           <Col md={10} lg={5} className='mx-md-auto mt-lg-4'>
             <h3 className='mb-4'>
-              Programming languages, frameworks and libraries, tools and
+              Programming language, tools, and
               platforms I currently work with.
             </h3>
           </Col>
