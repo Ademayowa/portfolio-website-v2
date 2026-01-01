@@ -78,28 +78,28 @@ export const skills = [
   },
   {
     id: 2,
-    skill: 'React',
+    skill: 'Linux',
   },
   {
     id: 3,
-    skill: 'Next.js',
+    skill: 'Kubernetes',
   },
   {
     id: 4,
-    skill: 'TypeScript',
+    skill: 'Docker',
   },
 
   {
     id: 5,
-    skill: 'Node.js',
+    skill: 'Helm',
   },
   {
     id: 6,
-    skill: 'MongoDB',
+    skill: 'Prometheus',
   },
   {
     id: 7,
-    skill: 'PostgreSQL',
+    skill: 'Grafana',
   },
   {
     id: 8,
@@ -119,15 +119,11 @@ export const skills = [
   },
   {
     id: 12,
-    skill: 'Jenkins',
-  },
-  {
-    id: 13,
     skill: 'Git',
   },
   {
-    id: 14,
-    skill: 'Docker',
+    id: 13,
+    skill: 'PostgreSQL',
   },
 ];
 
