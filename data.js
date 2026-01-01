@@ -115,10 +115,6 @@ export const skills = [
   },
   {
     id: 11,
-    skill: 'GitLab CI',
-  },
-  {
-    id: 12,
     skill: 'Git',
   },
 ];
