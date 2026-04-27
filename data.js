@@ -49,25 +49,22 @@ export const data = [
 
 export const projects = [
   {
-    id: '1',
-    title: 'A web application portal for hackathon registration',
-    info: 'A web portal that tracks numbers of submitted users projects',
-    technologies: ['TypeScript', 'React | NextJS', 'MongoDB', 'NodeJS', 'Sanity'],
-    url: 'https://www.icpsahara.africa/',
+    id: 1,
+    title: 'Building a Fully Reproducible Kubernetes Platform Using Scaleway, Terraform, and ArgoCD — Part 1',
+    info: 'Learn how to provision a Kubernetes cluster with Scaleway Kapsule, bootstrap ArgoCD using the App-of-Apps pattern, and inject secrets securely at runtime using Infisical.',
+    url: 'https://medium.com/@mayorstacks/building-a-fully-reproducible-kubernetes-platform-using-scaleway-terraform-and-argocd-part-1-55bfafaaa902',
   },
-   {
-     id: '2',
-     title: 'A job board for Golang & DevOps related roles',
-    info: 'An app that allows anyone to search & apply for Golang related jobs',
-     technologies: ['Go', 'SQLite', 'React | NextJS', 'TypeScript', 'Tailwind'],
-    url: 'https://job-board-v3.vercel.app/',
-   }, 
   {
-    id: '3',
-    title: 'A web application for hackathons in Africa',
-    info: 'A web app that lists details of hackathons across Africa',
-    technologies: ['TypeScript', 'React | NextJS', 'Sanity', 'Tailwind', 'NodeJS'],
-    url: 'https://hackathon-v2.vercel.app/',
+    id: 2,
+    title: 'Deploy a Golang App to EC2 with Docker and AWS ECR',
+    info: 'A step-by-step guide to containerising a Golang application, pushing the image to AWS ECR, and deploying it on an EC2 instance.',
+    url: 'https://medium.com/@mayorstacks/deploy-a-golang-app-to-ec2-with-docker-and-aws-ecr-f9dd1b74b011',
+  },
+  {
+    id: 3,
+    title: 'Sending React Emails using Next.js and the Resend SDK',
+    info: 'How to build and send transactional emails with React Email components inside a Next.js app using the Resend SDK.',
+    url: 'https://dev.to/mayorstacks/sending-react-emails-using-nextjs-and-the-resend-sdk-sdk-19bd',
   },
 ];
 
