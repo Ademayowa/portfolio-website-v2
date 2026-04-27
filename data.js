@@ -51,7 +51,7 @@ export const projects = [
   {
     id: 1,
     title: 'Building a Reproducible Kubernetes Platform Using Scaleway & Terraform',
-    info: 'Learn how to provision a Kubernetes cluster with Scaleway Kapsule, bootstrap ArgoCD using the App-of-Apps pattern, and inject secrets securely at runtime using Infisical.',
+    info: 'Learn how to provision a Kubernetes cluster with Scaleway, Terraform & ArgoCD.',
     url: 'https://medium.com/@mayorstacks/building-a-fully-reproducible-kubernetes-platform-using-scaleway-terraform-and-argocd-part-1-55bfafaaa902',
   },
   {
