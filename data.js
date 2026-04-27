@@ -51,7 +51,7 @@ export const projects = [
   {
     id: 1,
     title: 'Building a Reproducible Kubernetes Platform Using Scaleway & Terraform',
-    info: 'Learn how to provision a Kubernetes cluster with Scaleway, Terraform & ArgoCD.',
+    info: 'Learn how to provision a Kubernetes cluster with Scaleway, Terraform & ArgoCD using the app-of-apps pattern.',
     url: 'https://medium.com/@mayorstacks/building-a-fully-reproducible-kubernetes-platform-using-scaleway-terraform-and-argocd-part-1-55bfafaaa902',
   },
   {
@@ -63,7 +63,7 @@ export const projects = [
   {
     id: 3,
     title: 'Sending React Emails using Next.js and the Resend SDK',
-    info: 'How to build and send transactional emails with React Email components inside a Next.js app using the Resend SDK.',
+    info: 'How to build and send transactional emails with React Email components inside a Next.js app using the Resend SDK inside a Next.js app.',
     url: 'https://dev.to/mayorstacks/sending-react-emails-using-nextjs-and-the-resend-sdk-sdk-19bd',
   },
 ];
